@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>pro.zhang</groupId>
+	<artifactId>image2video</artifactId>
+	<version>1.0</version>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>6</source>
+					<target>6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<dependencies>
+		
+		<dependency>
+			　　<groupId>customizer</groupId>
+			　　<artifactId>customizer</artifactId>
+			　　<version>1.0</version>
+			　　<scope>system</scope>
+			　　<systemPath>${project.basedir}/libs/customizer.jar</systemPath>
+		</dependency>
+		<dependency>
+			　　<groupId>jim2mov</groupId>
+			　　<artifactId>jim2mov</artifactId>
+			　　<version>1.0</version>
+			　　<scope>system</scope>
+			　　<systemPath>${project.basedir}/libs/Jim2mov.jar</systemPath>
+		</dependency>
+		<dependency>
+			　　<groupId>jmf</groupId>
+			　　<artifactId>jmf</artifactId>
+			　　<version>1.0</version>
+			　　<scope>system</scope>
+			　　<systemPath>${project.basedir}/libs/jmf.jar</systemPath>
+		</dependency>
+		<dependency>
+			　　<groupId>mediaplayer</groupId>
+			　　<artifactId>mediaplayer</artifactId>
+			　　<version>1.0</version>
+			　　<scope>system</scope>
+			　　<systemPath>${project.basedir}/libs/mediaplayer.jar</systemPath>
+		</dependency>
+		<dependency>
+			　　<groupId>multiplayer</groupId>
+			　　<artifactId>multiplayer</artifactId>
+			　　<version>1.0</version>
+			　　<scope>system</scope>
+			　　<systemPath>${project.basedir}/libs/multiplayer.jar</systemPath>
+		</dependency>
+		
+	</dependencies>
+
+
+</project>
